@@ -109,7 +109,8 @@ const initialAppointmentForm: AppointmentForm = {
 const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
 const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-const SCHEDULER_URL = import.meta.env.VITE_SCHEDULER_URL?.trim() || 'https://calendly.com/'
+const SCHEDULER_URL =
+  import.meta.env.VITE_SCHEDULER_URL?.trim() || 'https://calendly.com/samuelkatz2000/30min'
 const TARGET_EMAIL = 'Samuelkatz2000@gmail.com'
 const hasThirdPartyScheduler = Boolean(SCHEDULER_URL)
 
